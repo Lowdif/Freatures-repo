@@ -46,7 +46,10 @@ function Layer({info, setSelectedLayer, selectedLayer}: LayerProps) {
     //HTML when layer is expanded
     const expandedContent =
     (<>
+        <p className={styles.expandedTitle}>Layer {info.layer}</p>
+        <div className={styles.expandedContent}>
 
+        </div>
     </>);
 
     //HTML when layer is collapsed
@@ -56,7 +59,7 @@ function Layer({info, setSelectedLayer, selectedLayer}: LayerProps) {
         <p>{info.name}</p>
     </>);
 
-    return(<motion.div className={styles.layer}
+    return(<motion.div className={`${styles.layer} ${isExpanded? styles.expanded : styles.collapsed}`}
                 initial={initialProperties}
                 animate={animatedProperties}
                 
@@ -80,6 +83,8 @@ export type LayerInfo = {
     bgColor: string;
     bgColorHover: string;
     hoverShadowColor: string;
+    expandedText: Object;
+    expandedImages: Object;
 }
 
 export default Layer;

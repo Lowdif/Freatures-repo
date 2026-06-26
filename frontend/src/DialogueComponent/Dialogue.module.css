@@ -1,0 +1,59 @@
+@keyframes appear {
+    to {
+        visibility: visible;
+        opacity: 100%;
+    }
+}
+
+.dialogueContainer {
+    z-index: 999;
+    position: absolute;
+    display: flex;
+    visibility: hidden;
+    opacity: 0;
+    animation: appear 1s forwards;
+    gap: 1rem;
+    &:hover {
+        cursor: pointer;
+    }
+}
+
+.hidden {
+    visibility: hidden;
+    position: relative;
+    margin: 0;
+    height: auto;
+    pointer-events: none;
+    white-space: pre-line;
+}
+
+.shown {
+    position: absolute;
+    inset: 0;
+    top: 1rem; /*Same as padding of dialogueBox*/
+    margin: 0;
+    white-space: pre-line;
+}
+
+.dialogueIcon {
+    width: 4rem;
+    height: 4rem;
+}
+
+.dialogueBox {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1rem;
+    margin: 0;
+    background-color: whitesmoke;
+    box-shadow: 5px 5px 5px #8080805f;
+    border-radius: 10px;
+    text-align: center;
+    inline-size: 15rem;
+    position: relative;
+    overflow: hidden;
+    
+    &::selection {
+        background-color: rgb(90, 90, 90);
+        color: aliceblue;
+    }
+}

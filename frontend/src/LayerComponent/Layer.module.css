@@ -6,6 +6,16 @@
 
     user-select: none;
     font-family: var(--layers-font-familiy);
+    
+}
+
+.expanded {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.collapsed {
     padding: 1rem;
     margin: 0;
     display: flex;
@@ -13,6 +23,16 @@
     align-items: center;
     justify-content: center;
     row-gap: 0.5rem;
+}
+
+.expandedTitle {
+    padding: 1rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.expandedContent {
+    flex: 1;
 }
 
 .layer p {

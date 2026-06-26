@@ -1,7 +1,7 @@
-[{"layer": 1, "name": "Physical", "desc": "", "bgColor": "#d17743", "bgColorHover": "#b35e33", "hoverShadowColor": "#693517"},
-{"layer": 2, "name": "Data Link", "desc": "", "bgColor": "#ecd358", "bgColorHover": "#c29631", "hoverShadowColor": "#785a13"},
-{"layer": 3, "name": "Network", "desc": "", "bgColor": "#78c93b", "bgColorHover": "#288419", "hoverShadowColor": "#17570d"},
-{"layer": 4, "name": "Transport", "desc": "", "bgColor": "#2fd78e", "bgColorHover": "#148f5a", "hoverShadowColor": "#0b5e3a"},
-{"layer": 5, "name": "Session", "desc": "", "bgColor": "#36a8c7", "bgColorHover": "#22768d", "hoverShadowColor": "#0e4351"},
-{"layer": 6, "name": "Presentation", "desc": "", "bgColor": "#426aee", "bgColorHover": "#243f99", "hoverShadowColor": "#11225b"},
-{"layer": 7, "name": "Application", "desc": "", "bgColor": "#4f4fef", "bgColorHover": "#1f1faf", "hoverShadowColor": "#111163"}]
+[{"layer": 1, "name": "Physical", "desc": "", "bgColor": "#d17743", "bgColorHover": "#b35e33", "hoverShadowColor": "#693517", "expandedText": {}, "expandedImages": {}},
+{"layer": 2, "name": "Data Link", "desc": "", "bgColor": "#ecd358", "bgColorHover": "#c29631", "hoverShadowColor": "#785a13", "expandedText": {}, "expandedImages": {}},
+{"layer": 3, "name": "Network", "desc": "", "bgColor": "#78c93b", "bgColorHover": "#288419", "hoverShadowColor": "#17570d", "expandedText": {}, "expandedImages": {}},
+{"layer": 4, "name": "Transport", "desc": "", "bgColor": "#2fd78e", "bgColorHover": "#148f5a", "hoverShadowColor": "#0b5e3a", "expandedText": {}, "expandedImages": {}},
+{"layer": 5, "name": "Session", "desc": "", "bgColor": "#36a8c7", "bgColorHover": "#22768d", "hoverShadowColor": "#0e4351", "expandedText": {}, "expandedImages": {}},
+{"layer": 6, "name": "Presentation", "desc": "", "bgColor": "#426aee", "bgColorHover": "#243f99", "hoverShadowColor": "#11225b", "expandedText": {}, "expandedImages": {}},
+{"layer": 7, "name": "Application", "desc": "", "bgColor": "#4f4fef", "bgColorHover": "#1f1faf", "hoverShadowColor": "#111163", "expandedText": {}, "expandedImages": {}}]

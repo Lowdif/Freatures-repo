@@ -1,0 +1,34 @@
+@keyframes appear {
+    from {
+        opacity: 0;
+    } to {
+        opacity: 1;
+    }
+}
+
+
+@keyframes disappear {
+    from {
+        opacity: 1;
+    } to {
+        opacity: 0;
+    }
+}
+
+.arrow {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+}
+
+.appear {
+    animation: appear 1s forwards;
+}
+
+.disappear {
+    animation: disappear 1s forwards;
+}
